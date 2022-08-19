@@ -1,0 +1,37 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #333;
+  font-family: Helvetica, sans-serif;
+  color: #eee;
+}
+
+.btn {
+  display: block;
+  padding: 0.5rem 2rem;
+  background-color: #ff1b8d;
+  -webkit-box-shadow: 0 3px #000;
+          box-shadow: 0 3px #000;
+  font-size: 1.5rem;
+  border-radius: 500px;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: background-color 0.1s ease-in;
+  transition: background-color 0.1s ease-in;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #dc0b73;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=styles.css.map */
